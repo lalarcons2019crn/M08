@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9ebed;
+  font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
+
+  }
+
+#barra{
+  height: 43px;
+  background-color: #5066ae;
+  position: fixed;
+  left: 0;
+  right: 0;
+  }
+
+#contingut{
+  margin: 0 auto;
+  width: 852px;
+  overflow: hidden;
+  }
+
+#contingut #cap{
+  height: 358px;
+  background-color: white;
+  background-image: url(img.png);
+  background-repeat: no-repeat;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+
+  }
+
+#contingut #cap img{
+  position: relative;
+  top: 300px;
+  left: 21px;
+  border-radius: 50%;
+  border: solid white 4px;
+  box-shadow: 2px 2px 2px #666666;
+  }
+
+#contingut #cap h2{
+  position: relative;
+  top: 70px;
+  left: 230px;
+  color: white;
+  text-shadow: 2px 2px 2px #666666;
+  }
+
+
+#contingut #menu{
+  height: 43px;
+  background-color: white;
+  width: 530px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 74px;
+  color: blue;
+  }
+
+li{
+  float: left;
+  margin: 0 0 0 1px;
+  list-style-type: none;
+  background-color: white;
+  display: block;
+  height: 43px;
+  padding: 0 25px;
+  line-height: 43px;
+
+}
+
+#principal {
+  overflow: hidden;
+
+}
+
+
+#seccions{
+width: 298px;
+float: left;
+overflow: hidden;
+
+}
+
+
+.esquerra {
+
+
+    }
+
+.esquerra {
+     background-color: white;
+     border-radius: 3px;
+     border: solid 1px #DDD;
+     margin-top: 12px;
+     width: 322px;
+     height: 200px;
+     float: left;
+     clear: left;
+     padding: 12px;
+     overflow: hidden;
+}
+
+#seccions h3{
+  text-indent: 24px;
+  height: 24px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  background-position: 0 -24px;
+
+
+
+
+
+.dreta{
+    height: 100px;
+    width: 516px;
+    float: right;
+    clear: right;
+}
+
+
+#presentacio li, #amistats li, #fotos, li {
+font-size: 12px;
+list-style-type: none;
+
+}
+
+
+#presentacio h3{
+background-position: 0 0;
+}
+
+#presentacio p {
+border-bottom: solid 1px #000;
+box-shadow: 0 1px 0 #000;
+
+}
+
+#presentacio .estudis{
+list-style-image: url(../img/icn/icones_estudis.png);
+
+}
+
+#amistats h3{
+  background-position: 0 -48px;
+}
+
+#suprise h3{
+background-position: 0 -72px;
+
+}
