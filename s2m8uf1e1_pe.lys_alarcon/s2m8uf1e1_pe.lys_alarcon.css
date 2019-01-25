@@ -1,0 +1,105 @@
+body {
+
+	top:0; bottom:0;
+	text-decoration:none;
+	margin:0 auto;
+	background-color: #222;
+	font-family: Helvetica,  sans-serif;
+	color: white;
+
+
+
+}
+
+
+#menu {
+	background-image: url(img/quasinegre.png);
+	height: 50px;
+	display: fixed;
+	z-index: 1;
+
+}
+
+
+
+#menu li:hover {
+	background-color: #222;
+	color: #FFF;
+	cursor: pointer;
+}
+
+li{
+	list-style: none;
+	border: 1px;
+	margin: 5px;
+
+}
+
+#principal{
+	width: 1024px;
+	margin: 0 auto;
+	float: left;
+	margin-left: 25%;
+		}
+
+
+#pendents {
+	border-radius: 5px;
+	float:left;
+	margin: 5px;
+	width: 175px;
+
+}
+
+
+#pendents img{
+	border-radius: 5px;
+}
+
+
+#pendents:hover{
+	opacity: 0.5;
+	}
+
+
+
+#vistos {
+	width: 175px;
+	margin: 5px;
+	float:left;
+	border-radius: 5px;
+		}
+
+#vermell{
+	width: 175px;
+	float:left;
+	margin: 5px;
+	border-radius: 5px;
+
+
+}
+
+#vistos img {
+	border-radius: 5px;
+}
+
+#vistos:hover {
+	opacity: 0.5;
+}
+
+.titol {
+	color: #CCC;
+	font-size: 14px;
+}
+
+
+.any {
+	color: #CCC;
+	font-size: 11px;
+}
+
+
+h1 {
+	color: #FFF;
+	font-size: 22px;
+}
